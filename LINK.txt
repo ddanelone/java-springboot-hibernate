@@ -1,0 +1,17 @@
+https://www.youtube.com/watch?v=7vHzVN0EiQc&ab_channel=ATLAcademy%28byLucasMoy%29
+
+Para iniciarlizar un proyecto de Springboot:
+https://start.spring.io/
+
+Para descargar una muestra:
+
+
+Tiempo del video visto: 
+03:39:42 - ¿Cómo funciona una Sesión de Usuario?
+
+Para saber qué proceso está corriendo en un puerto: (leer la información que aparece en powerShell!!!!)
+netstat -ano | findstr LISTENING | findstr 8080
+
+Para matar un proceso:
+taskkill -PID 11808 -F
+                                              
