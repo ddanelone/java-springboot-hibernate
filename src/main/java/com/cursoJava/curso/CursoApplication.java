@@ -8,6 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EnableJpaRepositories(basePackages = "dao")
 @EntityScan(basePackages = "models")
+
 public class CursoApplication {
 
    public static void main(String[] args) {

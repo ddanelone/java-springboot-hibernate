@@ -18,7 +18,9 @@ async function iniciarSesion() {
 
   const respuesta = await request.text();
 
-  if (respuesta == "Ok") {
+  if (respuesta != "Error") {
+    localStorage.token = respuesta;
+    localStorage.email = datos.email;
     window.location.href = "usuarios.html";
   } else {
     alert("Usuario o contraseña incorrectos");

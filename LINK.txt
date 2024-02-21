@@ -7,7 +7,7 @@ Para descargar una muestra:
 
 
 Tiempo del video visto: 
-03:39:42 - ¿Cómo funciona una Sesión de Usuario?
+04:24:50 - Repositorios de Código
 
 Para saber qué proceso está corriendo en un puerto: (leer la información que aparece en powerShell!!!!)
 netstat -ano | findstr LISTENING | findstr 8080
